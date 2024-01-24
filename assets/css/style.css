@@ -1,0 +1,205 @@
+body{
+    font-family: "Kanit", sans-serif;
+}
+
+.navigations{
+    color: white;
+}
+.navbar-toggler-icon {
+    background-image: none!important;
+    background-color: transparent;
+    height: 3px;
+    width: 25px;
+    margin: 5px 0;
+    position: relative;
+    transition: all 0.35s ease-out;
+    transform-origin: center;
+  }
+  
+  .navbar-toggler-icon::before {
+    display: block;
+    background-color: black;
+    height: 3px;
+    content: "";
+    position: relative;
+    top: 5px;
+    transition: all 0.15s ease-out;/*taken down to hide quicker*/
+    transform-origin: center;
+  }
+  
+  .navbar-toggler-icon::after {
+    display: block;
+    background-color: black;
+    height: 3px;
+    content: "";
+    position: relative;
+    top: 18px;
+    transition: all 0.35s ease-out;
+    transform-origin: center;
+  }
+  
+  .navbar-dark .navbar-toggler-icon,
+  .navbar-dark .navbar-toggler-icon::before,
+  .navbar-dark .navbar-toggler-icon::after {
+    background-color: white;
+  }
+.landing_page_sub_btn{
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-left: 0;
+}
+.landing_page_sub_btn a{
+  text-decoration: none;
+  color: white;
+  background: #DF6951;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 8px 18px;
+}
+.landing_page_sub_btn a:hover{
+  text-decoration: none;
+  color: #DF6951;
+  background: transparent;
+  border-radius: 8px;
+  transition: 0.5s;
+  border: 1px solid #DF6951;
+}
+@media only screen and (max-width: 992px){
+  .nav_ch{
+    background-color: white;
+  }
+}
+.SubBtn{
+    background-color: #218225;
+    color: white;
+    padding: 4px 7px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 10px solid transparent;
+}
+.SubBtn:hover{
+    color: whitesmoke;
+    background-color: #134014;
+}
+.About_us{
+    background: linear-gradient(
+            20deg,
+            #6d906fa9 0%,
+            #6d906fa9 20%,                                                                 
+            whitesmoke 20%,
+            whitesmoke 100%
+        );
+        padding: 50px;
+        text-align: center;
+        color: black;
+        font-size: 1.5rem;
+}
+.Services_card{
+  color: white;
+  border-radius: 5px;
+  background-color: #218225;
+}
+.Services_card:hover{
+  cursor: pointer;
+  background-color: #32ad36c1;
+  transition: 0.5s;
+}
+.five{
+  padding-top: 8%;
+  padding-bottom: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.six{
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.gallery{
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  text-align: center;
+  cursor: pointer;
+}
+.gallery::-webkit-scrollbar{
+  display: none;
+}
+.gallery .gal{
+  width: 100%;
+  display: flex;
+  flex: none;
+  gap: 30px;
+  padding: 10px;
+  align-self: normal;
+  margin-bottom: 20px;
+}
+.gallery1{
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  text-align: center;
+  cursor: pointer;
+}
+.gallery1::-webkit-scrollbar{
+  display: none;
+}
+.gallery1 .gal1{
+  width: 100%;
+  display: flex;
+  flex: none;
+  gap: 30px;
+  padding: 10px;
+  align-self: normal;
+  margin-bottom: 20px;
+}
+.carder{
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  padding-bottom: 10px; 
+  border-radius: 8px;
+}
+.carder h6{
+  background-color: #218225;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.carder img{
+  width: 230px;
+  height: 170px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.shadow01{
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.media_links a{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding-right: 6px;
+}
+.company a{
+  text-decoration: none;
+  color: white;
+}
+.Destinations a{
+  text-decoration: none;
+  color: white;
+}
+.nav_color{
+  color: white;
+}

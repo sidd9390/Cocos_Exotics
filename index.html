@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <section class="landing_page" id="landing_page">
+        <div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <nav class="navbar navbar-expand-lg position-fixed nav_ch p-0" id="navigation-bar" style="z-index: 200; width: 100%;">
+                    <div class="container p-2">
+                      <a class="navbar-brand" href="./index.html">
+                        <img src="./assets/images/logo.png" class="img-fluid" alt="logo" style="width: 100px;">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-center navigations" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item pe-4">
+                            <a class="nav-link active fw-bold" aria-current="page" href="#landing_page" style="color: black;">Home</a>
+                          </li>
+                          <li class="nav-item pe-4">
+                            <a class="nav-link fw-bold" href="#About" style="color: black;">About</a>
+                          </li>
+                          <li class="nav-item pe-4">
+                            <a class="nav-link fw-bold" href="#Services" style="color: black;">Services</a>
+                          </li>
+                          <li class="nav-item pe-4">
+                            <a class="nav-link fw-bold" href="#five" style="color: black;">Products</a>
+                          </li>
+                          <li class="nav-item pe-4">
+                            <a class="nav-link fw-bold" href="#contact_us" style="color: black;">Contact us</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+                <div>
+                    <div class="carousel-item active pt-5 pb-2" style="position: relative; background-color: antiquewhite;">
+                        <div class="row d-flex justify-content-center align-items-center p-4 pt-5">
+                            <div class="col-12 col-lg-5 text-center">
+                                <img src="./assets/images/Home_page_image.png" style="width: 600px;"  class="img-fluid" alt="">
+                            </div>
+                            <div class="col-12 col-lg-5">
+                                <h1 class="display-4 fw-semibold">Exotic Products</h1>
+                                <h5>Step into the realm of taste with Cocos Exotics, a visionary endeavor founded by the stalwart Mr. Bapu. Our legacy is woven from the threads of commitment, cultivating dreams in the rich soil of agricultural innovation. Mr. Bapu, a seasoned farmer with a passion for the extraordinary, planted the seeds that grew into Cocos Exotics.</h5>
+                                <div class="pt-3">
+                                    <a class="SubBtn" href="#">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-5 pb-2" style="position: relative; background-color: antiquewhite;">
+                        <div class="row d-flex justify-content-center align-items-center p-4 pt-5">
+                            <div class="col-12 col-lg-5 text-center">
+                                <img src="./assets/images/Home_page_image.png" style="width: 600px;" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-12 col-lg-5">
+                                <h1 class="display-4 fw-semibold">Exotic Products</h1>
+                                <h5>Our commitment extends beyond mere cultivation; it's a pledge to redefine culinary boundaries. Mr. Bapu's vision is driving force, transforming conventional vegetables into an exquisite array of exotic produce. Each harvest is testament to our dedication to quality, innovation, and nutritional richness that exotics bring your table.</h5>
+                                <div class="pt-3">
+                                    <a class="SubBtn" href="#">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="About_us p-0">
+        <div id="About" class="pt-5 container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <h1 class="display-5 fw-semibold pt-5 text-start">About <span style="color: #218225;">Us</span></h1>
+                <div class="col-12 col-lg-6 text-center">
+                    <img src="./assets/images/AboutUS_img.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-6 text-start">
+                    <h2 class="fw-semibold">Introduction of Cocos Exotics: Unveiling Cocos Exotics:</h2>
+                    <p class="fs-5">Dive into the narrative of Cocos Exotics, orchestrated by the visionary Mr. Bapu. This saga transcends ordinary agriculture, showcasing a meticulous blend of passion and dedication. Witness Mr. Bapu's unwavering commitment, transforming the commonplace into an extraordinary assortment of unique crops. The tale of Cocos Exotics is more than legacy; it's a journey into redefining agricultural boundaries, led by a commitment to excellence and nutritional richness.</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 col-lg-6 text-start order-1 order-lg-0">
+                    <h2 class="fw-semibold">Founders Mr. Bapu's Visionary Stewardship:</h2>
+                    <p class="fs-5">Meet the heart and soul of Cocos Exotics, Mr. Bapu, a seasoned farmer and visionary founder. His journey is a testament to unwavering dedication, cultivating dreams through a diverse spectrum of unique crops. Mr. Bapu's passion for the extraordinary has been the driving force behind transforming conventional agriculture into the extraordinary world of Cocos Exotics. His leadership, rooted in a deep connection to the soil, continues to guide us toward excellence, innovation, and a legacy that transcends the ordinary.</p>
+                </div>
+                <div class="col-12 col-lg-6 text-center order-0 order-lg-1">
+                    <img src="./assets/images/fooding man 1.png" style="width: 400px;" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="V_Mision p-0" style="position: relative;">
+      <div id="VM" class="pt-5 container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-12 col-lg-6 text-center">
+              <img src="./assets/images/vision.png" style="width: 400px;" class="img-fluid" alt="">
+          </div>
+          <div class="col-12 col-lg-6 text-start">
+              <h2 class="fw-semibold">Vision Culinary Excellence Unveiled:</h2>
+              <p class="fs-5">At Cocos Exotics, we envision a culinary landscape where every plate tells a story of unparalleled excellence. Our vision is to be the forefront leaders in the exotic produce domain, redefining gastronomic experiences globally. We strive to cultivate a diverse tapestry of unique crops, enriching lives through the symphony of extraordinary flavors and nutritional richness</p>
+          </div>
+        </div>
+      </div>
+      <div id="VM" class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-12 col-lg-6 text-start order-1 order-lg-0">
+            <h2 class="fw-semibold">Mission Nourishing Lives, Cultivating Dreams:</h2>
+            <p class="fs-5">Our mission at Cocos Exotics is to provide access to unparalleled crops, fostering dietary diversity and elevating the culinary landscape. Rooted in Mr. Bapu's passion, we are dedicated to delivering not just produce but a promise to redefine culinary boundaries. Each harvest embodies our commitment to quality, nutritional richness, and a transformative dining experience. Join us in the pursuit of perfection, where every meal is an ode to nourishment and innovation.</p>
+          </div>
+          <div class="col-12 col-lg-6 text-center order-0 order-lg-1">
+            <img src="./assets/images/mission.png" style="width: 400px;" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+      <img src="./assets/images/dec-1.png" class="img-fluid" style="position: absolute; bottom: 0; right: 0; filter: opacity(0.4); z-index: -1; width: 300px;" alt="">
+    </section>
+    <section class="Services p-0">
+      <div id="Services" class="pt-5 container">
+        <h1 class="display-5 fw-semibold pt-5 text-start">Our<span style="color: #218225;"> Services</span></h1>
+        <div class="row d-flex justify-content-center p-3">
+          <div class="col-lg-3 lg-12 card m-4 p-0">
+            <div class="card-body p-4 Services_card" style="color: white;">
+              <h1><i class="fa-solid fa-cart-shopping"></i></h1>
+              <h4 class="fw-semibold">Retail Opulence</h4>
+              <p class="fs-6">Diverse Choices for Modern Trade: Explore our exclusive range of 17 exotic varieties, catering to...... </p>
+              <div class="pt-3">
+                <a class="SubBtn" data-bs-toggle="modal" data-bs-target="#exampleModal1" href="#">Know More</a>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-3 lg-12 card m-4 p-0">
+            <div class="card-body p-4 Services_card" style="color: white;">
+              <h1><i class="fa-solid fa-store"></i></h1>
+              <h4 class="fw-semibold">Wholesale Synchrony</h4>
+              <p class="fs-6">Bulk Brilliance for Wholesale Markets: Shine in wholesale markets with a brilliant array of crops...... </p>
+              <div class="pt-3">
+                <a class="SubBtn" data-bs-toggle="modal" data-bs-target="#exampleModal2" href="#">Know More</a>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-3 lg-12 card m-4 p-0">
+            <div class="card-body p-4 Services_card" style="color: white;">
+              <h1><i class="fa-solid fa-mobile-screen"></i></h1>
+              <h4 class="fw-semibold">Digital Symphony</h4>
+              <p class="fs-6">Gated Community Elegance: Extend opulence to gated communities like Indu, Rainbow Vista, and others.....</p>
+              <div class="pt-3">
+                <a class="SubBtn" data-bs-toggle="modal" data-bs-target="#exampleModal3" href="#">Know More</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="Products p-0" style="background-color: whitesmoke;">
+    <section class="five container pt-5" id="five">
+      <h1 class="display-5 fw-semibold pt-5 text-start">Our<span style="color: #218225;"> Products</span></h1>
+      <div class="gallery">
+        <div class="gal">
+          <div class="carder shadow01">
+            <img src="./assets/images/P-1.jpg" alt="">
+            <div class="info">
+            </div>
+            <h6>Broccoli</h6>
+            <div class="p-3 text-center">
+              <a class="SubBtn" data-bs-toggle="modal" data-bs-target="#exampleModal4" href="#">Benfits</a>
+          </div>
+          </div>
+          <div class="carder shadow01">
+            <img src="./assets/images/P-1.jpg" alt="">
+            <div class="info">
+            </div>
+            <h6>Broccoli</h6>
+            <div class="p-3 text-center">
+              <a class="SubBtn" href="#">Benfits</a>
+          </div>
+          </div>
+          <div class="carder shadow01">
+            <img src="./assets/images/P-1.jpg" alt="">
+            <div class="info">
+            </div>
+            <h6>Broccoli</h6>
+            <div class="p-3 text-center">
+              <a class="SubBtn" href="#">Benfits</a>
+          </div>
+          </div>
+          <div class="carder shadow01">
+            <img src="./assets/images/P-1.jpg" alt="">
+            <div class="info">
+            </div>
+            <h6>Broccoli</h6>
+            <div class="p-3 text-center">
+              <a class="SubBtn" href="#">Benfits</a>
+          </div>
+          </div>
+          <div class="carder shadow01">
+            <img src="./assets/images/P-1.jpg" alt="">
+            <div class="info">
+            </div>
+            <h6>Broccoli</h6>
+            <div class="p-3 text-center">
+              <a class="SubBtn" href="#">Benfits</a>
+          </div>
+          </div>
+          <div class="carder shadow01">
+            <img src="./assets/images/P-1.jpg" alt="">
+            <div class="info">
+            </div>
+            <h6>Broccoli</h6>
+            <div class="p-3 text-center">
+              <a class="SubBtn" href="#">Benfits</a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="navi text-center">
+        <i id="btnleft" class="fa-solid fa-arrow-left fs-3 p-2"></i>
+        <i id="btnright" class="fa-solid fa-arrow-right fs-3 p-2"></i>
+      </div>
+    </section>
+</section>
+<section class="pb-2" style="background-color: whitesmoke;">
+  <section class="six container" id="five">
+    <div class="gallery1">
+      <div class="gal1">
+        <div class="carder shadow01">
+          <img src="./assets/images/P-1.jpg" alt="">
+          <div class="info">
+          </div>
+          <h6>Broccoli</h6>
+          <div class="p-3 text-center">
+            <a class="SubBtn" href="#">Benfits</a>
+        </div>
+        </div>
+        <div class="carder shadow01">
+          <img src="./assets/images/P-1.jpg" alt="">
+          <div class="info">
+          </div>
+          <h6>Broccoli</h6>
+          <div class="p-3 text-center">
+            <a class="SubBtn" href="#">Benfits</a>
+        </div>
+        </div>
+        <div class="carder shadow01">
+          <img src="./assets/images/P-1.jpg" alt="">
+          <div class="info">
+          </div>
+          <h6>Broccoli</h6>
+          <div class="p-3 text-center">
+            <a class="SubBtn" href="#">Benfits</a>
+        </div>
+        </div>
+        <div class="carder shadow01">
+          <img src="./assets/images/P-1.jpg" alt="">
+          <div class="info">
+          </div>
+          <h6>Broccoli</h6>
+          <div class="p-3 text-center">
+            <a class="SubBtn" href="#">Benfits</a>
+        </div>
+        </div>
+        <div class="carder shadow01">
+          <img src="./assets/images/P-1.jpg" alt="">
+          <div class="info">
+          </div>
+          <h6>Broccoli</h6>
+          <div class="p-3 text-center">
+            <a class="SubBtn" href="#">Benfits</a>
+        </div>
+        </div>
+        <div class="carder shadow01">
+          <img src="./assets/images/P-1.jpg" alt="">
+          <div class="info">
+          </div>
+          <h6>Broccoli</h6>
+          <div class="p-3 text-center">
+            <a class="SubBtn" href="#">Benfits</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="navi text-center">
+      <i id="btnleft1" class="fa-solid fa-arrow-left fs-3 p-2"></i>
+      <i id="btnright1" class="fa-solid fa-arrow-right fs-3 p-2"></i>
+    </div>
+  </section>
+</section>
+<section class="why_choose_us p-0">
+  <div class="why_choose_us pt-5 container" id="why_choose_us">
+    <h1 class="display-5 fw-semibold pt-5 pb-3 text-start">Why Cho<span style="color: #218225;">ose us</span></h1>
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-lg-8 col-12">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                <h4 style="color: #218225;">Operational Symphony</h4>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                	Seamless Year-Long Production: Our commitment to year-long production ensures a consistent and reliable supply of exotic produce. This consistency is not just a strategy; it's a symphony of meticulous planning to meet the demands of our diverse audience.
+                	Fixed Pricing for Lasting Impact: The harmony of our fixed pricing strategy is designed to create a lasting impact. It provides our customers with not just a price but a commitment to affordability without compromising the quality of our exceptional produce.
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                <h4 style="color: #218225;">Quality Assurance</h4>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                	Exceptional Crop Standards: At Cocos Exotics, we adhere to the highest standards in crop cultivation, ensuring that each exotic produce meets our stringent quality benchmarks.
+	                Rigorous Quality Checks: Our commitment to quality extends to rigorous checks at every stage of production, guaranteeing that only the finest produce reaches your table.
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <h4 style="color: #218225;">Team Leadership</h4>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                Experience-Driven Leadership: Our leadership team brings a wealth of experience in the cultivation of exotic produce. It's not just about growing crops; it's about understanding the nuances of each variety, ensuring an unparalleled culinary experience.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<Section class="ContactUs p-0">
+  <div class="contact container pt-5" id="contact_us">
+    <h1 class="display-5 fw-semibold pt-5 text-start">Contact<span style="color: #218225;"> Us</span></h1>
+    <div class="row">
+      <div class="col-lg-6 col-12text-center">
+        <img src="./assets/images/contact_us_img.png" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-6 col-12 text-center">
+        <div class="form-floating mb-3">
+          <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Name</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Phone Number</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email</label>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Message Here</label>
+        </div>
+        <div class="pt-4 mb-5 text-start">
+          <a class="SubBtn" href="#">Get Started</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</Section>
+<section class="footer p-0" style="background-color: #09440b; position: relative;">
+  <div class="footer container pt-5" id="footer">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-12">
+        <img src="./assets/images/logo.png" class="img-fluid pb-3" alt="logo" style="width: 100px;">
+        <p class="pe-4" style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facilis consequatur inventore consequuntur</p>
+        <div class="media_links" style="display: flex; flex-direction: row;">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+          <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a href="#"><i class="fa-solid fa-infinity"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="row">
+          <div class="col-6">
+            <div class="company">
+              <a href="#" class="fw-bold" style="font-size: 20px;"><p>Links</p></a>
+              <a href="#"><p>Home</p></a>
+              <a href="#"><p>About_us</p></a>
+              <a href="#"><p>Services</p></a>
+              <a href="#"><p>Products</p></a>
+              <a href="#"><p>Why choose us</p></a>
+              <a href="#"><p>Contact us</p></a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="Destinations">
+              <a href="#" class="fw-bold" style="font-size: 20px;"><p>Support</p></a>
+              <a href="#"><p>Help</p></a>
+              <a href="#"><p>FA&Q</p></a>
+              <a href="#"><p>Privacy Policy</p></a>
+              <a href="#"><p>Terms and Conditions</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12" style="color: white;">
+        <a href="#" class="fw-bold" style="font-size: 20px; text-decoration: none; color: white;"><p>Our Details</p></a>
+        <p>Email: info@sample.com | sample@gmail.com</p>
+        <p>Phone: xxxxxxxx | xxxxxxxx | xxxxxxxx</p>
+      </div>
+    </div>
+    <div class="text-center pt-3 pb-2" style="color: white;">
+      <p>Copyright @ Sample  2024. All Rights Reserved</p>
+    </div>
+  </div>
+  <img src="./assets/images/dec-2.png" class="img-fluid" style="position: absolute; bottom: 0; right: 0; filter: opacity(0.2); z-index: 1;" alt="">
+</section>
+
+
+
+
+
+
+<!-- Modal1 -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color: #218225; color: white;">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Retail Opulence</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Diverse Choices for Modern Trade: Explore our exclusive range of 17 exotic varieties, catering to esteemed modern trade partners such as Ratnadeep, Vijaytha, More, Pure O Naturals, Lulu, and Sampoorna. Quality curated for the discerning palate.
+    Quality for General Trade: In general trade; experience our commitment to quality, providing an opulent array of crops that meet diverse everyday consumer needs.
+    Online Opulence: Discover opulence online through platforms like Big Basket, Zepto, Swiggy, Zomato, and Country Delight, ensuring exotic choices are just a click away.
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Modal2 -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color: #218225; color: white;">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Wholesale Synchrony</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Bulk Brilliance for Wholesale Markets: Shine in wholesale markets with a brilliant array of crops in bulk, meeting market and business demands seamlessly.
+    General Trade Alliance: Build alliances that synchronize with the market pulse, showcasing synergy in wholesale operations.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal3 -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color: #218225; color: white;">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Digital Symphony</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Gated Community Elegance: Extend opulence to gated communities like Indu, Rainbow Vista, and others, bringing elegance with our unique crop selection.
+    Healthful Offerings for Clubs: Dive into the digital realm of health clubs and gyms with healthful offerings for the fitness conscious audience.
+    Parks and Daily Markets Excitement: Experience excitement in parks like KBR, Indira, and others, and daily markets across 7 locations with our exotic produce.
+    HORECA Brilliance across All Locations: Lead in HORECA establishments across all locations, showcasing brilliance in meeting the unique demands of the hospitality industry.
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal4 -->
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color: #218225; color: white;">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Broccoli</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h5>Benfits</h5>
+        <p><i class="fa-solid fa-arrow-right"></i> Vitamin Powerhouse: Brimming with Vitamin C for immune support and Vitamin K for bone health.</p>
+        <p><i class="fa-solid fa-arrow-right"></i> Antioxidant Boost: Rich in antioxidants like sulforaphane, promoting overall wellbeing.</p>
+        <p><i class="fa-solid fa-arrow-right"></i> Fibrerich Goodness: High fibre content aids digestion and supports a healthy gut.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
