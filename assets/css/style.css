@@ -1,10 +1,15 @@
 body{
     font-family: "Kanit", sans-serif;
 }
-
+.bgcolornav{
+  background-color: white;
+  transition: 1s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
 .navigations{
     color: white;
 }
+
 .navbar-toggler-icon {
     background-image: none!important;
     background-color: transparent;
@@ -72,7 +77,7 @@ body{
 .SubBtn{
     background-color: #218225;
     color: white;
-    padding: 4px 7px;
+    padding: 1px 3px;
     text-decoration: none;
     border-radius: 5px;
     border: 10px solid transparent;
@@ -167,21 +172,23 @@ body{
 .carder{
   display: flex;
   flex-direction: column;
-  width: 230px;
+  width: 280px;
   padding-bottom: 10px; 
-  border-radius: 8px;
+  border-radius: 10px;
+  background-color: whitesmoke;
 }
 .carder h6{
   background-color: #218225;
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
+  font-size: 20px;
 }
 .carder img{
-  width: 230px;
-  height: 170px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  width: 280px;
+  height: 220px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .shadow01{
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;

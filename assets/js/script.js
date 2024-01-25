@@ -32,3 +32,21 @@ btnLeft1.addEventListener("click",()=>{
     scrollContainer1.style.scrollBehavior ="smooth";
     scrollContainer1.scrollLeft -= 280
 })
+
+
+function changeBg()
+{
+  var navbar = document.getElementById('navigation-bar');
+  var scrollValue = window.scrollY;
+  console.log(scrollValue);
+  
+  if(scrollValue < 300){
+    navbar.classList.remove('bgcolornav');
+  }
+  else if(scrollValue > 300){
+    navbar.classList.add('bgcolornav');
+  }
+  
+}
+
+window.addEventListener('scroll', changeBg);
